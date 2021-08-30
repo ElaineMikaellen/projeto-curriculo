@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+
+    <style>
+        .body{
+            font-family: roboto;
+        }
+        .curriculo{
+            background-color: blue;
+            height: 700px;
+            width: 700px;
+            display: inline-flex;
+        }
+
+        .principal{
+            width: 70%;
+            background-color: #FFF;
+            height: 100%;
+            padding: 30px;
+            color: #222222;
+
+        }
+
+        .lateral{
+            width: 30%;
+            height: 100%;
+            background-color: #19304f;
+            color: #FFF;
+            padding: 80px 30px 0;
+            
+        }
+
+        h1, h3, div{
+            font-family: roboto;
+        }
+        
+        h2{
+            font-size: 20px;
+            font-family: roboto;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: roboto;
+        }
+
+        .informacoes-pessoais{
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .informacoes-pessoais img{
+            border-radius: 100px;
+            width: 120px;
+            height: 120px;
+        }
+
+        .informacoes-pessoais .textos{
+            margin-left: 7px;
+        }
+
+        .informacoes-pessoais .textos h1{
+            margin-bottom: 7px;
+        }
+
+        .informacoes-pessoais .textos h3{
+            margin-top: 0;
+        }
+
+        .redes-sociais{
+            display: inline-flex;
+            margin-top: 15px;
+        }
+
+        .redes-sociais img{
+            width: 20px;
+            height: 20px;
+            margin-right: 7px;
+        }
+
+        .conhecimento{
+            margin-top: 40px;
+        }
+
+        .conhecimento div{
+            width: 100%;
+            border-bottom: 2px solid #FFF;
+        }
+
+        footer{
+            width: 700px;
+            text-align: center;
+            margin-top: 90px;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="curriculo">
+        <div class="principal">
+            <div class="informacoes-pessoais">
+                <div class="imagem">
+                    <img src="./foto-perfil.jpg" alt="Foto">
+                </div>
+
+                <div class="textos">
+                    <h1>Elaine Mikaellen</h1>
+                    <h3>Front-end Developer</h3>
+                </div>
+            </div>
+
+            <h2>Perfil</h2>
+            <div>Sou uma jovem apaixonada por tecnologia, games e skate</div>
+            <div>Meu objetivo é me formar na área de direito, e me tornar uma delegada.</div>
+            <div>Dentre meus pontos fortes destaco Determinação e Otimismo</div>
+
+            <h2>Educação</h2>
+            <ul>
+                <li>Ensino médio completo - Colégio Zequinha Barreto - 2020</li>
+                <li>Curso Front End com ênfase em React - Start Latam - 2021</li>
+                <ul>
+                    <li>Módulos Módulo Ambientação Plataforma</li>
+                    <li>Módulo inteligência Emocional</li>
+                    <li>Lógica de programação</li>
+                    <li>HTML, CSS, Javascript, Git, React, Docker, API Rest.</li>
+                </ul>
+            </ul>
+            
+
+            <h2>Projetos</h2>
+            <ul>
+                <li>Minha primeira atividade - <a href="https://github.com/ElaineMikaellen/projeto-aula-01">Projeto 1</a></li>
+                <li>Lista de exercício 2 - <a href="https://github.com/ElaineMikaellen/atividade3_lista_de_exercicio2">Lista de exercícios 2</a></li>
+                <li>Atividade prática de estrutura - <a href="https://github.com/ElaineMikaellen/atividade_pratica_de_estrutura.html">Estrutura</a></li>
+            </ul>
+        </div>
+        <div class="lateral">
+            <h2>Contato</h2>
+            <div>Rua Copacabana</div>
+            <div>Recife PE 51030590</div>
+            <div>(81) 981323997</div>
+            <div>mikamariz81@gmail.com</div>
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/">
+                    <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/ElaineMikaellen">
+                    <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="logo github">
+                </a>
+                <a href="https://www.instagram.com/miikinha_sk8/">
+                    <img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="Instagram Logo">
+                </a>
+            </div>
+
+            <div class="conhecimento">
+                <h2>conhecimentos</h2>
+                <div>HTML</div>
+                <div>CSS</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; Elaine Mikaellen
+    </footer>
+</body>
+</html>
